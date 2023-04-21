@@ -1,7 +1,4 @@
-package JavaPractice.src;
-
-import java.util.*;
-import JavaPractice.src.Test;
+package JavaPractice.src.ExceptionPractice;
 
 public class Main {
 	public static void main(String[] args) {
@@ -9,7 +6,7 @@ public class Main {
 
 		try {
 
-			Test a = new Test();
+			Sample a = new Sample();
 
 			a.setAge(-128);
 

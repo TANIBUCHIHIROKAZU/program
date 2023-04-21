@@ -1,4 +1,4 @@
-package JavaPractice.src;
+package JavaPractice.src.ExceptionPractice;
 
 public class UnsupportedException extends Exception {
   // エラーメッセージを受け取るコンストラクタ

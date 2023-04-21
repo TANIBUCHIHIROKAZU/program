@@ -1,12 +1,10 @@
-package JavaPractice.src;
+package JavaPractice.src.ExceptionPractice;
 
-import java.lang.*;
+public class Sample {
 
-public class Test {
+  private int age;
 
-  int age;
-
-  public void setAge(int age) { 
+  public void setAge(int age) {
     if (age < 0) {
       throw new IllegalArgumentException("年齢は正の数を指定すべきです。指定値=" + age);
     }
